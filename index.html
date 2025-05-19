@@ -71,15 +71,109 @@
                 <div class="row gx-4 gy-4">
                     <!-- Sidebar Buttons -->
                     <div class="col-12 col-md-4">
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-info text-white btn-sm">The University</button>
-                            <button class="btn btn-info text-white btn-sm">Administration</button>
-                            <button class="btn btn-info text-white btn-sm">Degrees Offered</button>
-                            <button class="btn btn-info text-white btn-sm">Research & Publications</button>
-                            <button class="btn btn-info text-white btn-sm">International Affairs Section</button>
-                            <button class="btn btn-info text-white btn-sm">Affiliated Institutions</button>
-                            <button class="btn btn-info text-white btn-sm">Useful Links</button>
-                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <!-- Item 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        The University
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a class="nav-link" href="">About HSTU</a>
+                                        <a class="nav-link" href="">Vice Chancellor's Message</a>
+                                        <a class="nav-link" href="">Annual Petformance Agreemnet</a>
+                                        <a class="nav-link" href="">Annual Report 2021-22</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Item 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        Administration
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a class="nav-link" href="">Regent Board</a>
+                                        <a class="nav-link" href="">Academic Council</a>
+                                        <a class="nav-link" href="">Admin Bodies</a>
+                                        <a class="nav-link" href="">Office & Section</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Item 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        Degrees Offered
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a class="nav-link" href="">Undergraduate Programme</a>
+                                        <a class="nav-link" href="">Postgraduate Programme</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Item 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        Research & Publications
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a class="nav-link" href="">Journal of Science and Technology</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Item 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        Affiliated Institutions
+                                    </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a class="nav-link" href="">Shahid Akbar Ali Science & Technology College</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Item 6 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        Useful Links
+                                    </button>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a class="nav-link" href="">Shahid Akbar Ali Science & Technology College</a>
+                                        <a class="nav-link" href="">HSTU Wikipedia</a>
+                                        <a class="nav-link" href="">হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় আইন, ২০০১</a>
+                                        <a class="nav-link" href="">UGC</a>
+                                        <a class="nav-link" href="">Statistics Personal Website</a>
+                                        <a class="nav-link" href="">Students Affairs and Advisory Division</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
                     </div>
                 
                     <!-- University Description -->
@@ -119,8 +213,9 @@
                     </div>
                 
                     </div>
+                </div>
             </div>
-         </section>
+        </section>
 
         <!--- ---- notice section ---- -->
         <section class="notice">
@@ -310,30 +405,88 @@
             <div class="container py-3">
                 <!-- Header -->
                 <div class="custom-bg text-white fw-semibold text-center py-2">
-                    Message from Pro Vice-Chancellor
+                    <h5>Message from Pro Vice-Chancellor</h5>
                 </div>
             
                 <!-- Content -->
                 <div class="d-flex flex-column flex-md-row align-items-start gap-3 py-4">
                     <!-- Left: Image and name -->
                     <div class="text-center">
-                        <img src="https://hstu.ac.bd/uploads/Prof-DrMdShafiqul-Islam-Sikdar-Pro-VC-HSTU.jpg"
-                            alt=""
-                            width="250" height="300" class="img-fluid border object-fit-cover"
-                            style="width: 250px; height: 300px;" />
-                        <p class="mt-2 ">
-                            Prof. Dr. Md. Shafiqul Islam Sikdar
+                        <div class="float-md-start me-md-3 mb-2">
+                            <img src="https://hstu.ac.bd/uploads/Prof-DrMdShafiqul-Islam-Sikdar-Pro-VC-HSTU.jpg" alt="" width="250" height="300"
+                                class="img-fluid border object-fit-cover" style="width: 250px; height: 300px;" />
+                            <p class="mt-2 ">
+                                Prof. Dr. Md. Shafiqul Islam Sikdar
+                            </p>
+                            <a href="#" class="text-small text-primary">
+                                View Profile
+                            </a>
+                        </div>
+                        <p class="text-start">
+                            Welcome to the website of Hajee Mohammad Danesh Science and Technology
+                            University (HSTU) which is the first Science and
+                            Technology University in the northern region of Bangladesh. It stands away
+                            from
+                            the urban din and bustle at a beautiful and
+                            scenic location about 13 km north of Dinajpur town by the side of the
+                            intercity
+                            highway to Dhaka, the
+                            capital of Bangladesh. I feel great pleasure in expressing my heartiest
+                            congratulations and best wishes for the gradual
+                            but
+                            steady development of the HSTU, Dinajpur.
+                            <br>
+                            It is a matter of satisfaction for us that the university has made
+                            significant
+                            progress in a relatively short period of
+                            time in
+                            terms of expansion of its physical infrastructure and academic programmes.
+                            The
+                            HSTU has been growing rapidly in terms of
+                            quality, recognition, activities, number of courses, student intake, staff,
+                            outreach and research during the recent
+                            years.
+                            The university provides multidiscipline education. We have nine faculties
+                            such
+                            as Agriculture, Computer Science and
+                            Engineering, Business Studies, Fisheries, Engineering, Veterinary and Animal
+                            Science, Science, Social Science and
+                            Humanities
+                            and Post-graduate Studies with 45 departments. Presently
+                            195 international students (undergraduate-179 and postgraduate-16) are
+                            studying
+                            in this university; from Nepal,
+                            Bhutan, India, Djibouti, Nigeria, Somalia and Jammu &amp; Kashmir. We are
+                            proud
+                            for our international students as the
+                            number is the highest
+                            among the public universities in Bangladesh.
+                            <br>
+                            In the continuing task of nation building, HSTU is trying to promote
+                            excellence
+                            in higher education and research for a
+                            vibrant and
+                            inclusive society through knowledge creation and dissemination. It is making
+                            sincere efforts to contribute its mite by
+                            providing the right kind of human resources. It is striving hard to impart
+                            quality education to meet national and global
+                            challenges, towards accomplishing its mission. For students, the degree
+                            represents certification of competence, and a
+                            passport to advance education or gainful employment, and livelihood and
+                            prosperity.inclusive society through knowledge creation and dissemination. It is making
+                            sincere efforts to contribute its mite by
+                            providing the right kind of human resources. It is striving hard to impart
+                            quality education to meet national and global
+                            challenges, towards accomplishing its mission. For students, the degree
+                            represents certification of competence, and a
+                            passport to advance education or gainful employment, and livelihood and
+                            prosperity.
                         </p>
-                        <a href="#" class="text-small text-primary">
-                            View Profile
-                        </a>
-                    </div>
-            
-                    <!-- Right: Text info -->
-                    <div class="ms-auto text-end text-small fw-bold text-secondary">
-                        <p>Prof. Dr. Md. Shafiqul Islam Sikdar</p>
-                        <p>Pro Vice Chancellor of HSTU.</p>
-                    </div>
+                        <div class="ms-auto text-end text-small fw-bold text-secondary">
+                            <p>Prof. Dr. Md. Shafiqul Islam Sikdar</p>
+                            <p>Pro Vice Chancellor of HSTU.</p>
+                            </div>
+                    </div>                   
                 </div>   
             </div>
         </section>
@@ -403,129 +556,231 @@
             </div>
         </section>
 
-        <!-- ---- news envet ---- -->
         <section class="news-event my-4">
             <div class="container my-5">
-                <h3 class="text-center mb-4">News and Events</h3>
-
-                <swiper-container 
-                    pagination="true" 
-                    navigation="true" 
-                    pagination-dynamic-bullets="true"
-                    loop="false" 
-                    speed="2500" 
-                    slides-per-view="4" 
-                    slides-per-group="4" 
-                    autoplay="false"
-                    space-between="20"
-                 >
+                <div>
+                    <h5 class="text-center py-2 text-white fw-semibold custom-bg mb-4">News and Events</h5>
+                </div>
+        
+                <swiper-container navigation="true" loop="false" speed="2500" slides-per-view="4" autoplay="false"
+                    space-between="20" breakpoints='{
+                                "320": { "slidesPerView": 1, "slidesPerGroup": 1 },
+                                "640": { "slidesPerView": 2, "slidesPerGroup": 2 },
+                                "768": { "slidesPerView": 3, "slidesPerGroup": 3 },
+                                "1024": { "slidesPerView": 4, "slidesPerGroup": 4 }
+                            }'>
+        
                     <!-- Slide 1 -->
-                    <div class="swiper-slide">
+                    <swiper-slide>
                         <div class="card">
-                            <img src="img1.jpg" class="card-img-top" alt="Event 1">
+                            <img src="https://hstu.ac.bd/img/home/event/150.jpg" class="card-img-top" alt="Event 1">
                             <div class="card-body">
                                 <h5 class="card-title">VIEW DETAILS</h5>
                                 <p class="card-text text-success small">১০ এপ্রিল ২০২৫</p>
                                 <p class="card-text small">পশ্চিম অঞ্চলে কারিগরিতে ২৪ তম বিশ্ববিদ্যালয় দিবস উদযাপন</p>
                             </div>
                         </div>
-                    </div>
-                    
+                    </swiper-slide>
+        
                     <!-- Slide 2 -->
-                    <div class="swiper-slide">
+                    <swiper-slide>
                         <div class="card">
-                            <img src="img2.jpg" class="card-img-top" alt="Event 2">
+                            <img src="https://hstu.ac.bd/img/home/event/149.jpg" class="card-img-top" alt="Event 2">
                             <div class="card-body">
                                 <h5 class="card-title">VIEW DETAILS</h5>
                                 <p class="card-text text-success small">২৬ মার্চ ২০২৫</p>
                                 <p class="card-text small">স্বাধীনতা দিবস উদযাপন ও জাতীয় দিবস অনুষ্ঠান</p>
                             </div>
                         </div>
-                    </div>
-                    
+                    </swiper-slide>
+        
                     <!-- Slide 3 -->
-                    <div class="swiper-slide">
+                    <swiper-slide>
                         <div class="card">
-                            <img src="img3.jpg" class="card-img-top" alt="Event 3">
+                            <img src="https://hstu.ac.bd/img/home/event/148.jpg" class="card-img-top" alt="Event 3">
                             <div class="card-body">
                                 <h5 class="card-title">VIEW DETAILS</h5>
                                 <p class="card-text text-success small">২৫ মার্চ ২০২৫</p>
                                 <p class="card-text small">গণহত্যা দিবস উপলক্ষে মোমবাতি প্রজ্বালন</p>
                             </div>
                         </div>
-                    </div>
-                    
+                    </swiper-slide>
+        
                     <!-- Slide 4 -->
-                    <div class="swiper-slide">
+                    <swiper-slide>
                         <div class="card">
-                            <img src="img4.jpg" class="card-img-top" alt="Event 4">
+                            <img src="https://hstu.ac.bd/img/home/event/147.jpg" class="card-img-top" alt="Event 4">
                             <div class="card-body">
                                 <h5 class="card-title">VIEW DETAILS</h5>
                                 <p class="card-text text-success small">১০ মার্চ ২০২৫</p>
                                 <p class="card-text small">বিশ্ববিদ্যালয় প্রতিনিধির সাথে সৌজন্য সাক্ষাৎ</p>
                             </div>
                         </div>
-                    </div>
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
+                    </swiper-slide>
+        
+                    <!-- Slide 5 -->
+                    <swiper-slide>
                         <div class="card">
-                            <img src="img4.jpg" class="card-img-top" alt="Event 4">
+                            <img src="https://hstu.ac.bd/img/home/event/146.jpg" class="card-img-top" alt="Event 5">
                             <div class="card-body">
                                 <h5 class="card-title">VIEW DETAILS</h5>
                                 <p class="card-text text-success small">১০ মার্চ ২০২৫</p>
                                 <p class="card-text small">বিশ্ববিদ্যালয় প্রতিনিধির সাথে সৌজন্য সাক্ষাৎ</p>
                             </div>
                         </div>
-                    </div>
+                    </swiper-slide>
+        
+                    <!-- Slide 6 -->
+                    <swiper-slide>
+                        <div class="card">
+                            <img src="https://hstu.ac.bd/img/home/event/145.jpg" class="card-img-top" alt="Event 6">
+                            <div class="card-body">
+                                <h5 class="card-title">VIEW DETAILS</h5>
+                                <p class="card-text text-success small">১০ মার্চ ২০২৫</p>
+                                <p class="card-text small">বিশ্ববিদ্যালয় প্রতিনিধির সাথে সৌজন্য সাক্ষাৎ</p>
+                            </div>
+                        </div>
+                    </swiper-slide>
                 </swiper-container>
             </div>
-        </section>
+            </section>
 
-        <!--  -->
-        <section>
+        <!-- Faculties section  -->
+        <section class="faculties my-4">
             <div class="container py-5">
                 <div class="row g-4 justify-content-center">
                     <!-- Left side Faculties -->
                     <div class="col-md-6">
-                        <h2 class="custom-bg text-white fw-semibold text-center py-2">
+                        <h5 class="custom-bg text-white fw-semibold text-center py-2 mb-3">
                             Faculties
-                        </h2>
-                        <ul class="list-group mt-2">
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Postgraduate Studies
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Agriculture
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Computer Science and Engineering
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Business Studies
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Fisheries
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Veterinary and Animal Science
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Engineering
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Science
-                            </li>
-                            <li class="list-group-item bg-info text-white fw-semibold">
-                                Social Science and Humanities
-                            </li>
-                        </ul>
+                        </h5>
+                        <div>
+                            <div class="accordion" id="accordionExample">
+                                <!-- Item 1 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faculties1" aria-expanded="false" aria-controls="faculties1">
+                                            Postgraduate Studies
+                                        </button>
+                                    </h2>
+                                    <div id="faculties1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="nav-link" href="">Faculty of Postgraduate Studies</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Item 2 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faculties2" aria-expanded="false" aria-controls="faculties2">
+                                            Administration
+                                        </button>
+                                    </h2>
+                                    <div id="faculties2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="nav-link" href="">Faculity of Agriculture</a>
+                                            <a class="nav-link" href="">Dept. of Agronomy</a>
+                                            <a class="nav-link" href="">Dept. of Horticulture</a>
+                                            <a class="nav-link" href="">Dept. of Soil Science</a>
+                                            <a class="nav-link" href="">Dept. of Entomology</a>
+                                            <a class="nav-link" href="">Dept. of Plant Pathology</a>
+                                            <a class="nav-link" href="">Dept. of Genetics & Plant Breeding</a>
+                                            <a class="nav-link" href="">Dept. of Crop Physiology & Ecology</a>
+                                            <a class="nav-link" href="">Dept. of Agricultural Extention</a>
+                                            <a class="nav-link" href="">Dept. of Agricultural Chemistry</a>
+                                            <a class="nav-link" href="">Dept. of Agricultural & Environment</a>
+                                            <a class="nav-link" href="">Dept. of Biochemistry & Molecular Biology</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Item 3 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faculties3" aria-expanded="false" aria-controls="faculties3">
+                                            Computer Science & Engineering
+                                        </button>
+                                    </h2>
+                                    <div id="faculties3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="nav-link" href="">Faculity of Computer Sicence & Engineering</a>
+                                            <a class="nav-link" href="">Dept. of Computer Science & Engineering</a>
+                                            <a class="nav-link" href="">Dept. of Electrical & Electronic Engineering</a>
+                                            <a class="nav-link" href="">Dept. of Electronics & Communication Engineering</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Item 4 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faculties4" aria-expanded="false" aria-controls="faculties4">
+                                            Business Studies
+                                        </button>
+                                    </h2>
+                                    <div id="faculties4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="nav-link" href="">Faculty of Business Studies</a>
+                                            <a class="nav-link" href="">Dept. of Accounting</a>
+                                            <a class="nav-link" href="">Dept. of Finance & Banking</a>
+                                            <a class="nav-link" href="">Dept. of Management</a>
+                                            <a class="nav-link" href="">Dept. of Marketing</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Item 5 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faculties5" aria-expanded="false" aria-controls="faculties5">
+                                            Fisheries
+                                        </button>
+                                    </h2>
+                                    <div id="faculties5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="nav-link" href="">Faculty of Fisheries</a>
+                                            <a class="nav-link" href="">Dept. of Fisheries Biology & Genetics</a>
+                                            <a class="nav-link" href="">Dept. of Fisheries Management</a>
+                                            <a class="nav-link" href="">Dept. of Fisheries Technology</a>
+                                            <a class="nav-link" href="">Dept. of Aquaculture</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Item 6 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faculties6" aria-expanded="false" aria-controls="faculties6">
+                                            Useful Links
+                                        </button>
+                                    </h2>
+                                    <div id="faculties6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="nav-link" href="">Faculty of Veterinary and Animal Science</a>
+                                            <a class="nav-link" href="">HSTU Wikipedia</a>
+                                            <a class="nav-link" href="">হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় আইন, ২০০১</a>
+                                            <a class="nav-link" href="">UGC</a>
+                                            <a class="nav-link" href="">Statistics Personal Website</a>
+                                            <a class="nav-link" href="">Students Affairs and Advisory Division</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
                     </div>
             
                     <!-- Right side Map & Get Direction -->
                     <div class="col-md-6">
-                        <h2 class="custom-bg text-white fw-semibold text-center py-2">
+                        <h5 class="custom-bg text-white fw-semibold text-center py-2 mb-3">
                             Map &amp; Get Direction
-                        </h2>
+                        </h5>
                         <div class="ratio ratio-16x9 mt-2">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.927091927927!2d88.6370343154343!3d25.62692798367562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2a0a7a7a7a7a7%3A0x7a7a7a7a7a7a7a7a!2sDinajpur%20University!5e0!3m2!1sen!2sbd!4v1698192000000!5m2!1sen!2sbd"
